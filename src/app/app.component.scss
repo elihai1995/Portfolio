@@ -1,0 +1,192 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .app {
+    &__toolbar {
+      overflow: hidden;
+    }
+    main {
+      margin-left: 250px;
+    }
+  }
+  
+  .menubutton {
+    display: none;
+    button {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: #d21919;
+      font-size: x-large;
+    }
+
+    @media screen and (max-width: 991px) {
+      display: block;
+    }
+  }
+
+  .toolbar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #d21919;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.2s all ease;
+
+    @media screen and (max-width: 991px) {
+      left: -300px;
+      &--active {
+        left: 0;
+      }
+    }
+  }
+  
+  .toolbar img {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 70px;
+    border: 6px solid #972121c7;
+  }
+
+  .name {
+    margin-bottom: 8px;
+    font-size: 25px;
+    padding: 0;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 1px 1px #251717;
+  }
+
+  .address {
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding: 0;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 1px 1px #251717;
+  }
+
+  .position {
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 0;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 1px 1px #251717;
+  }
+  
+  .links {
+    margin-top: 15px;
+    text-align-last: center;
+  }
+
+  .menu {
+    margin-bottom: 235px;
+  }
+
+  button {
+    background: #d21919;
+    color: #bdb7b7;
+    border: 1px solid #d21919;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    text-shadow: 1px 1px #251717;
+  }
+
+  button:hover{
+    color: white;
+    transition-duration: 0.3s;
+  }
+  
+  .date {
+    padding-left: 2px;
+    text-align-last: center;
+    text-shadow: 1px 1px #251717;
+  }
+
+  .toolbar #github-logo,
+  .toolbar #linkdein-logo,
+  .toolbar #facebook-logo,
+  .toolbar #instagram-logo,
+  .toolbar #mail-logo {
+    margin: 10px;
+    color: white;
+    font-size: 27px;
+  }
+
+  .toolbar #github-logo:hover,
+  .toolbar #linkdein-logo:hover,
+  .toolbar #facebook-logo:hover,
+  .toolbar #instagram-logo:hover,
+  .toolbar #mail-logo:hover {
+    opacity: 0.8;
+    transition-duration: 0.3s;
+  }
+
+  .toolbar #github-logo:hover {
+    color: black;
+  }
+
+  .toolbar #linkdein-logo:hover {
+    color: #468ffc;
+  }
+
+  .toolbar #facebook-logo:hover {
+    color: #194df8;
+  }
+
+  .toolbar #instagram-logo:hover {
+    color: #eb60f8;
+  }
+
+  .toolbar #mail-logo:hover {
+    color: #f06e32c0;
+  }
+
+  ul, ol {
+    padding: 15px 0;
+    margin-left: 10px;
+  }
+
+  .content {
+    display: flex;
+    margin: 82px auto 1px;
+    max-width: 300px;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+  }
+
+  footer a {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+      width: 100%;
+    }
+  }

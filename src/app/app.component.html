@@ -1,0 +1,78 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+  
+<!-- Toolbar -->
+<div class="toolbar" [ngClass]="{ 'toolbar--active': isActive }">
+  <img width="130" src="assets/Elihai.jpg" />
+  
+  <div class="name"><b>Elihai Ben Avraham</b></div>
+  <div class="address">Bat Yam, Israel</div>
+  <div class="position">Junior Developer</div>
+
+  <div class="links">
+    <a id="github-logo" href="https://github.com/elihai1995" title="GitHub Profile">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a id="linkdein-logo" href="https://www.linkedin.com/in/elihai-ben-avraham" title="Linkdein Profile">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  
+    <a id="facebook-logo" href="https://www.facebook.com/elihai.benavraham" title="Facebook Profile">
+      <i class="fab fa-facebook-square"></i>
+    </a>
+
+    <a id="instagram-logo" href="https://www.instagram.com/elihai_ben_avraham" title="Instagram Profile">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <a id="mail-logo" href="mailto:elihai1995@gmail.com" title="Send Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+  
+  <div class="menu">
+    <ul>
+      <ol>
+        <a href="#home"><button>Home</button></a>
+      </ol>
+      <ol>
+        <a href="#about_me"><button>About Me</button></a>
+      </ol>
+      <ol>
+        <a href="#my_skills"><button>My Skills</button></a>
+      </ol>
+      <ol>
+        <a href="#life_experience"><button>Life Experience</button></a>
+      </ol>
+    </ul>
+  </div>
+
+<div class="date"><b>{{ myDate | date: "d MMMM y"}}, {{ myDate | date: "HH:mm"}}</b></div>
+</div>
+
+<div class="menubutton">
+    <button mat-fab (click)="toggleMenu()" *ngIf="!this.isActive"><i class="fas fa-bars"></i></button>
+    <button mat-fab (click)="toggleMenu()" *ngIf="this.isActive"><i class="fal fa-times"></i></button>
+</div>
+
+<main>
+  <app-hero></app-hero>
+  <app-about-me></app-about-me>
+  <app-my-skills></app-my-skills>
+  <app-life-experience></app-life-experience>
+</main>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
