@@ -40,16 +40,20 @@
   <div class="menu">
     <ul>
       <ol>
-        <a href="#hero">Home</a>
+        <a href="#hero" (click)="toggleMenu()" *ngIf="!this.isActive">Home</a>
+        <a href="#hero" (click)="toggleMenu()" *ngIf="this.isActive">Home</a>
       </ol>
       <ol>
-        <a href="#about-me">About Me</a>
+        <a href="#about-me" (click)="toggleMenu()" *ngIf="!this.isActive">About Me</a>
+        <a href="#about-me" (click)="toggleMenu()" *ngIf="this.isActive">About Me</a>
       </ol>
       <ol>
-        <a href="#my-skills">My Skills</a>
+        <a href="#my-skills" (click)="toggleMenu()" *ngIf="!this.isActive">My Skills</a>
+        <a href="#my-skills" (click)="toggleMenu()" *ngIf="this.isActive">My Skills</a>
       </ol>
       <ol>
-        <a href="#life-experience">Life Experience</a>
+        <a href="#life-experience" (click)="toggleMenu()" *ngIf="!this.isActive">Life Experience</a>
+        <a href="#life-experience" (click)="toggleMenu()" *ngIf="this.isActive">Life Experience</a>
       </ol>
     </ul>
   </div>
