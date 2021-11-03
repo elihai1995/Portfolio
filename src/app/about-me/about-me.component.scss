@@ -1,9 +1,47 @@
 .about-me {
-    height: 100vh;
-    background-color: #2109acf6;
+    height: 115vh;
+    background-color: #007fc9;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align-last: center;
+}
+
+.content {
+    margin-left: 6rem;
+}
+
+.hta {
+    border-radius: 5px;
+}
+
+span {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 32px;
+    padding: 10px;
 }
 
 p {
-    margin-left: 250px;
     color: white;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 80px;
+}
+
+ul {
+    columns: 2;
+    list-style: none;
+    li {
+        font-size: 1.2rem;
+        line-height: 2.0;
+        strong {
+            margin-right: 10px;      
+        }
+        i {
+            margin-right: 15px;
+        }
+    }
 }
