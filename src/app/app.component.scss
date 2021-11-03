@@ -39,7 +39,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #a50000;
+    background-color: black;
     color: white;
     font-weight: 400;
     font-size: 20px;
@@ -67,17 +67,16 @@
     padding: 0;
     text-align-last: center;
     font-family: "Poppins", sans-serif;
-    text-shadow: 1px 1px #251717;
+    text-shadow: 1px 1px gray;
   }
 
   .address {
-    color: #e7d4d4;
+    color: #d3d3d3;
     margin-bottom: 15px;
     font-size: 15px;
     padding: 0;
     text-align-last: center;
     font-family: "Poppins", sans-serif;
-    text-shadow: 1px 1px #251717;
   }
 
   .position {
@@ -86,7 +85,7 @@
     padding: 0;
     text-align-last: center;
     font-family: "Poppins", sans-serif;
-    text-shadow: 1px 1px #251717;
+    text-shadow: 1px 1px gray;
   }
   
   .links {
@@ -99,14 +98,14 @@
   }
 
   a {
-    background: #a50000;
-    color: #bdb7b7;
-    border: 1px solid #a50000;
+    background: black;
+    color: #d21919;
+    border: 1px solid black;
     cursor: pointer;
     font-size: 20px;
     margin-left: 15px;
     text-decoration: none;
-    text-shadow: 1px 1px #251717;
+    text-shadow: 1px 1px gray;
   }
 
   a:hover{
@@ -116,8 +115,9 @@
   
   .date {
     padding-left: 2px;
+    margin-top: 15px;
     text-align-last: center;
-    text-shadow: 1px 1px #251717;
+    color: #d3d3d3;
   }
 
   .toolbar #github-logo,
@@ -140,7 +140,7 @@
   }
 
   .toolbar #github-logo:hover {
-    color: black;
+    color: #d3d3d3;
   }
 
   .toolbar #linkdein-logo:hover {
@@ -152,11 +152,11 @@
   }
 
   .toolbar #instagram-logo:hover {
-    color: #eb60f8;
+    color: #ac03bb;
   }
 
   .toolbar #mail-logo:hover {
-    color: #f06e32c0;
+    color: #ff5100;
   }
 
   ul, ol {
