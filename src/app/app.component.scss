@@ -107,10 +107,12 @@
     margin-left: 15px;
     text-decoration: none;
     text-shadow: 2px 2px black;
+    transition-duration: 0.3s;
   }
 
   a:hover{
     color: white;
+    transition-duration: 0.3s;
   }
   
   .date {
@@ -129,6 +131,7 @@
     margin: 10px;
     color: white;
     font-size: 27px;
+    transition-duration: 0.3s;
   }
 
   .toolbar #github-logo:hover,
@@ -145,7 +148,7 @@
   }
 
   .toolbar #linkdein-logo:hover {
-    color: #468ffc;
+    color: #015baf;
   }
 
   .toolbar #facebook-logo:hover {
@@ -157,7 +160,7 @@
   }
 
   .toolbar #mail-logo:hover {
-    color: #ff5100;
+    color: #d21919;
   }
 
   ul, ol {
