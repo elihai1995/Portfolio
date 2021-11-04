@@ -1,13 +1,16 @@
 .about-me {
-    height: 125vh;
     background-color: #007fc9;
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
     text-align-last: center;
 }
 
+section {
+    padding: 0.5rem;
+}
+
 .content {
-    margin-left: 6rem;
+    text-align-last: center;
 }
 
 .shazar, .ashkelon, .hta {
@@ -15,20 +18,13 @@
 }
 
 span {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
 h2 {
     font-size: 32px;
     padding: 10px;
-}
-
-p {
-    color: white;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-left: 80px;
 }
 
 ul {
