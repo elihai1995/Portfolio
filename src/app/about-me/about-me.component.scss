@@ -11,6 +11,7 @@ section {
 
 .content {
     text-align-last: center;
+    font-size: 22px;
 }
 
 .shazar, .ashkelon, .hta {
@@ -18,8 +19,20 @@ section {
 }
 
 span {
-    font-size: 14px;
-    line-height: 1.5;
+    font-size: 22px;
+    line-height: 2.0;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.welcome {
+    font-size: 45px;
+}
+
+.details {
+    font-size: 15px;
 }
 
 h2 {
