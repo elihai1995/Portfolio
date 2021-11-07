@@ -1,16 +1,40 @@
 .my-skills {
-    height: 100vh;
-    background-color: #1ec8fcf6;
+    background-color: #2d7286f6;
     color: white;
     text-shadow: 1px 1px black;
     text-align-last: center;
 }
 
-h2 {
-    font-size: 50px;
-    padding: 10px;
+section {
+    padding: 0.5rem;
 }
 
-p {
-    margin-left: 250px;
+.content {
+    font-size: 20px;
+    display: inline-block;
+    text-align-last: left;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+span {
+    line-height: 2.0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    text-align-last: center;
+    padding-bottom: 5px;
+    li {      
+        padding: 0 10px;
+        i {
+           font-size: 4rem;
+           padding: 5px;
+           padding-top: 10px;
+        }
+    }
 }
