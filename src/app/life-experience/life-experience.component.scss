@@ -1,16 +1,32 @@
 .life-experience {
-    height: 100vh;
     background-color: #cbdcfa;
     color: black;
-    text-shadow: 1px 1px white;
     text-align-last: center;
 }
 
 h2 {
     font-size: 50px;
     padding: 20px;
+    text-shadow: 1px 1px white;
+    padding-bottom: 50px;
 }
 
-p {
-    margin-left: 250px;
+.content {
+    display: inline-block;
+}
+
+h3 {
+    color: #d21919;
+    text-shadow: 1px 1px white;
+    font-size: 27px;
+    text-align-last: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span {
+    line-height: 2.0;
+    font-size: 19px;
+    text-shadow: 1px 1px white;
+    text-align-last: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
