@@ -9,11 +9,16 @@ section {
     padding: 0.5rem;
 }
 
-.content {
+.container {
     font-size: 22px;
     display: inline-block;
     text-align-last: left;
     padding-left: 15px;
+}
+
+.content {
+    font-family: Arial, sans-serif;
+    font-size: 21px;
 }
 
 h2 {
@@ -32,6 +37,33 @@ h2 {
 
 .name {
     font-size: 25px;
+}
+
+span {
+    line-height: 2.0;
+}
+
+.shazar, .ashkelon, .hta {
+    border-radius: 2px;
+}
+
+.details {
+    font-size: 14px;
+}
+
+ul {
+    columns: 2;
+    list-style: none;
+    li {
+        font-size: 1.1rem;
+        line-height: 2.0;
+        strong {
+            margin-right: 10px;      
+        }
+        i {
+            margin-right: 15px;
+        }
+    }
 }
 
 span {
